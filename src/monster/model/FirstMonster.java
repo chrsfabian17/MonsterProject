@@ -44,5 +44,30 @@ public class FirstMonster
 	
 	return description;
 	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	public double getantennaCount()
+	{
+		return antennaCount;
+	}
+    public int getEyeCount()
+    {
+	return eyeCount;
+    }
+    public boolean gethasBellyButton()
+    {
+    	return hasBellyButton;
+    }
+    public int getarmCount()
+    {
+    	return armCount;
+    }
+    public int getnoseCount()
+    {
+    	return noseCount;
+    }
 }
 
