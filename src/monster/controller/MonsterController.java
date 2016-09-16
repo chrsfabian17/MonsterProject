@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class MonsterController
 {
 	private FirstMonster marshmallowMonster;
-private Scanner keyboardInput;
-	
+	private Scanner keyboardInput;
+
 	public MonsterController()
 	{
-	 marshmallowMonster = new FirstMonster("Bill", 2.5, 2, true, 6, 2);
-	 keyboardInput = new Scanner(System.in);			 
-	 
+		marshmallowMonster = new FirstMonster("Bill", 2.5, 2, true, 6, 2);
+		keyboardInput = new Scanner(System.in);
+
 	}
-	
+
 	public void start()
 	{
 		System.out.println("Here is my monster:" + marshmallowMonster);
@@ -42,13 +42,37 @@ private Scanner keyboardInput;
 			System.out.println("Fine dont change my name!!");
 		}
 		System.out.println(marshmallowMonster);
+		
+		{
+			System.out.println("Do you like my half antenna?");
+			String answer1 = keyboardInput.nextLine();
+				
+			if(answer1.equalsIgnoreCase("yes"))
+			{
+				System.out.println("Ha, only losers like my antenna.");
+			}
+			else
+			{
+				System.out.println("WOW!! Jerk! You didnt even ask what happened to it!! >:(");
+			}
+			{
+				System.out.println("Would you like to know what happened to it?");
+			String answer2 = keyboardInput.nextLine();
+			
+			if(answer2.equalsIgnoreCase("yes"))
+			{
+			System.out.println("It was a fierce battle between a cat that was trying to eat me, because "
+					+ "you know, IM MADE OF MARSHMALLOW!!>:(");	
+			}
+			else
+			{
+				System.out.println("Wow....Okay I'm begining to think you're just a big meanie :'(");
+			}
+			}
+		}
 	}
 }
 /*
- *name = Bill 
- * antennaCount = 2
- *eyeCount = 2
- * hasBellyButton = True
- * armCount = 2
- *noseCount = 2
+ * name = Bill antennaCount = 2eyeCount = 2 hasBellyButton = True armCount = 2
+ * noseCount = 2
  */
