@@ -1,5 +1,6 @@
 package monster.model;
 
+
 public class FirstMonster
 {
 
@@ -64,10 +65,45 @@ public class FirstMonster
     public int getarmCount()
     {
     	return armCount;
-    }
+    	
+    	}
     public int getnoseCount()
     {
     	return noseCount;
     }
+    public void setName(String name)			
+    {
+      this.name = name;
+    }
+    
+      public void setantennaCount(int eyeCount)	
+      {
+         this.antennaCount = antennaCount;  
+      }
+       public void setEyeCount(int eyeCount)
+      { 
+         this.eyeCount = eyeCount;
+    	  
+      }
+      
+    	  
+       public void sethasBellyButton(boolean hasBellyButton)
+      
+      {
+         this.hasBellyButton = hasBellyButton;
+    	  
+      }
+    	public void setarmCount(int armCount)
+    	  
+      {
+    	  this.armCount = armCount;
+      }
+    	public void setnoseCount(int noseCount)
+    	
+    	{
+    	  this.noseCount = noseCount;
+    	}  
+      
 }
+
 
