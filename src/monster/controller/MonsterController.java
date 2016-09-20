@@ -67,11 +67,38 @@ public class MonsterController
 			else
 			{
 				System.out.println("Wow....Okay I'm begining to think you're just a big meanie :'(");
+				{
+					loopMonster(); 
+				}
+				private void loopMonster()
+				{
+					//define a variable for condition/test
+					int numberOfTimes = 0;
+					while(numberOfTimes < 1000)
+					{
+						
+						System.out.print("first monster words" + marshmallowMonster);
+						
+						numberOfTimes++;
+					}
+				for(int count = 0; count < 100; count++)
+				{
+					System.out.println("First monster words" + marshmallowMonster);
+				}
+				
+				}
 			}
-			}
-		}
-	}
-}
+			
+
+
+
+
+					
+				
+			
+		
+	
+
 /*
  * name = Bill antennaCount = 2eyeCount = 2 hasBellyButton = True armCount = 2
  * noseCount = 2
